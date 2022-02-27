@@ -1,0 +1,23 @@
+{% extends "blog/base.html" %}
+
+{% block title %}Posts{% endblock %}
+
+
+{% block content %}
+    {% for post in posts %}
+        <article class="post">
+            <a
+                href="{{ post.get_absolute_url }}"
+            >
+                <h2>{{ post.title }}</h2>
+            </a>
+            <p class="date">
+                Publicado em
+                <em>{{ post.created }}</em>
+                por
+                <strong>{{ post.author }}</strong>
+            </p>
+            {{ post.body|linebreaks|truncatewords:10 }}
+        </article>
+    {% endfor %}
+{% endblock %}
