@@ -5,6 +5,6 @@ Fiz esse projeto seguindo o tutorial do
 [Fabio Ruicci](https://github.com/fabioruicci) no 
 [YouTube](https://www.youtube.com/watch?v=8LmcLXJRmb4&t=29s).
  
-![Screenshot](https://raw.githubusercontent.com/tadeubdev/primeira-aplicacao-com-django/blob/main/images/sreenshot.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/tadeubdev/primeira-aplicacao-com-django/main/images/screenshot.png)
  
  
